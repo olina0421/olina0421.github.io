@@ -495,4 +495,50 @@
   .gen-hero-panel {
     display: none;
   }
+
+  .gen-service-image{
+  position: relative;
+  overflow: hidden;
+}
+
+.gen-service-image img{
+  display: block;
+  width: 100%;
+}
+
+.gen-service-overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 24px;
+
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.85),
+    rgba(0,0,0,.35),
+    transparent
+  );
+
+  color: #fff;
+}
+
+.gen-service-overlay h3{
+  color: #fff;
+  margin: 8px 0 0;
+  line-height: 1.3;
+}
+
+.gen-service-overlay .gen-service-tag{
+  color: #fff;
+}
+
+.gen-service-image img{
+  transition: transform .5s ease;
+}
+
+.gen-service-card:hover .gen-service-image img{
+  transform: scale(1.05);
+}
 }
