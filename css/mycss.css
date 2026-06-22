@@ -263,6 +263,9 @@
   font-size: 1rem;
   line-height: 1.8;
 }
+.gen-proof-content .gen-section-label {
+  color: #c48f4a;
+}
 
 .gen-section-heading {
   max-width: 760px;
