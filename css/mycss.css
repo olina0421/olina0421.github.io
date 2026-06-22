@@ -541,4 +541,41 @@
 .gen-service-card:hover .gen-service-image img{
   transform: scale(1.05);
 }
+
+/* Service image overlay */
+
+.gen-service-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.gen-service-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 24px;
+
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.85),
+    rgba(0,0,0,.45),
+    transparent
+  );
+
+  color: #fff;
+  z-index: 2;
+}
+
+.gen-service-overlay h3 {
+  margin: 8px 0 0;
+  color: #fff;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.gen-service-overlay .gen-service-tag {
+  color: #fff;
+}
 }
