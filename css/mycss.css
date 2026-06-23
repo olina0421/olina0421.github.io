@@ -526,6 +526,10 @@
     display: none;
   }
 
+  .gen-service-card img {
+    aspect-ratio: 16 / 8;
+  }
+  
   .gen-brand-mark {
     width: 38px;
     height: 38px;
